@@ -1,0 +1,32 @@
+# Secrets
+.env
+config/client_secrets.json
+config/youtube_token.json
+config/tiktok_token.json
+
+# Database
+data/shorts_os.db
+data/shorts_os.db-wal
+data/shorts_os.db-shm
+
+# Generated assets (large binary files)
+data/assets/audio/
+data/assets/broll/
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+.pytest_cache/
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db

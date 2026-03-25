@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find c:/Users/zital/git/claude/youtube -name .env* -o -name *.env*)",
+      "Bash(.venv/Scripts/python scripts/setup.py)",
+      "Bash(.venv/Scripts/python scripts/run_pipeline.py generate-ideas)",
+      "Bash(.venv/Scripts/streamlit run:*)",
+      "Bash(.venv/Scripts/python scripts/run_pipeline.py generate-ideas --count 0)",
+      "Bash(.venv/Scripts/python -c \":*)",
+      "Bash(.venv/Scripts/python scripts/run_pipeline.py generate-script 10)",
+      "Bash(.venv/Scripts/python scripts/run_pipeline.py produce)",
+      "Bash(.venv/Scripts/python scripts/run_pipeline.py upload)",
+      "Bash(.venv/Scripts/python scripts/run_pipeline.py generate-script 6)",
+      "Bash(.venv/Scripts/python scripts/run_pipeline.py analytics)",
+      "Bash(python -c \":*)",
+      "Bash(python scripts/run_pipeline.py upload)",
+      "Bash(python scripts/demo_pipeline.py --script-id 17)"
+    ]
+  }
+}
