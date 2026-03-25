@@ -27,7 +27,7 @@ from loguru import logger
 
 TIKTOK_AUTH_URL = "https://www.tiktok.com/v2/auth/authorize/"
 TIKTOK_TOKEN_URL = "https://open.tiktokapis.com/v2/oauth/token/"
-REDIRECT_URI = "https://wiredwrong.local/callback"
+REDIRECT_URI = "http://localhost:8080/callback"
 SCOPES = "video.publish,video.upload"
 
 
